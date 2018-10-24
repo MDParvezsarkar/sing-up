@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+	 font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;font-family: 'Roboto Condensed', sans-serif;
+	
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.Sign-up-section{
+    
+    overflow: hidden;
+}
+.logo-area{
+	width: 42%;
+	float: left;
+	background-color: #5CBAFF;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+}
+.logo{
+	width: 95px;
+}
+.logo img{}
+.graphic{
+	padding-left: 36px;
+}
+.graphic img{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.Sign-up-form{
+	width: 58%;
+	float: left;
+	background-color: #0093FF;
+	height: 100vh;
+}
+.form-section{
+	width: 375px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.form-section h1{
+	color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.form-section p{
+	color: #fff;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.form-section strong{
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.form-section form{
+	margin-bottom: 58px;
+}
+.form-section form input{
+	width: 100%;
+	border: 0;
+    background-color: #fff;
+    color: #8D8D8D;
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+.form-section form input:hover{
+	background-color: #EBEFF8;
+}
+.form-section form input[type="text"]{
+	margin-top: 14px;
+}
+.form-section form input[type="email"]{}
+.form-section form input[type="password"]{}
+.form-section form input[type="button"]{
+	color: #57B2FF;
+	font-weight: 700;
+	width: auto;
+	text-align: center;
+	padding: 10px 10px;
+}
+.register-option{
+	width: 100%;
+}
+.register-option span{
+	color: #fff;
+	float: left;
+	font-size: 12px;
+}
+.register-option ul{
+	padding: 0;
+	margin: 0;
+	
+}
+.register-option ul li{
+	list-style: none;
+	float: left;
+}
+.register-option ul a{
+	text-decoration: none;;
+	text-transform: capitalize;
+	display: block;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 12px;
+}
